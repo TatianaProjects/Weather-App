@@ -14,9 +14,5 @@ A Frontend project that shows the current weather in any city using JavaScript a
 
 <img src="weather_preview.jpg" alt="Weather App Preview" width="400">
 
-### GIF Example
-
-<img src="assets/weather_demo.gif" alt="Weather App Demo" width="400">
-
 ### Technologies
 JavaScript (ES6+), HTML5, CSS3, OpenWeather API
