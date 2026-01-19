@@ -3,7 +3,7 @@
 Clean weather application built with vanilla JavaScript.  
 The app allows users to check the current weather conditions for any city using real-time data from the OpenWeather API.
 
-![Weather App Preview](assets/weather_preview.jpg)
+![Weather App Preview](weather_preview.jpg)
 
 ## 🔹 Features
 - Search weather by city name
