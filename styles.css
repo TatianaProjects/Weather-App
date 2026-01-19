@@ -1,0 +1,137 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#input {
+    background-color: rgba(142, 127, 161, 0.3);
+    border-radius: 20px;
+    border: 3px solid #CDF3A2;
+    padding: 15px;
+    font-size: 20px;
+   
+}
+#input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+#input:focus {
+    background-color: white;
+}
+
+#when-where{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city{
+    color: white;
+    font-size: 45px;
+}
+
+#date{
+    color: white;
+    font-size: 24px;
+}
+#now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temperature{
+    color: white;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 5px 10px black;
+    margin: 0;
+}
+#feelsLike{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+#conditions{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+}
+#variation{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+#loading {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#error {
+    color: #ffb4b4;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#humidity,
+#wind {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+@media (max-width: 600px) {
+
+    #input {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    #city {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    #date {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #temperature {
+        font-size: 80px;
+    }
+
+    #feelsLike,
+    #conditions,
+    #variation,
+    #humidity,
+    #wind {
+        font-size: 20px;
+        text-align: center;
+    }
+}
