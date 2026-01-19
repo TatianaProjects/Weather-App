@@ -1,18 +1,17 @@
 ## Weather App 🌤️
 
-A Frontend project that shows the current weather in any city using JavaScript and OpenWeather API. Focused on interactive UI and responsive layout.
+Shows the current weather in any city using JavaScript and OpenWeather API. Interactive UI and responsive layout.
 
 ### Features
-- Display current weather (temperature, humidity, wind speed)
+- Display current temperature, humidity, and wind speed
 - Dynamic background based on weather condition
-- User-friendly design
 
 ### Demo
 [Live Demo on Netlify](https://weatherforecastproject2026.netlify.app/)
 
-### Screenshots
-
+### Screenshot
 <img src="weather_preview.jpg" alt="Weather App Preview" width="400">
 
 ### Technologies
 JavaScript (ES6+), HTML5, CSS3, OpenWeather API
+
