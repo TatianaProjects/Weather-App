@@ -12,7 +12,7 @@ A Frontend project that shows the current weather in any city using JavaScript a
 
 ### Screenshots
 
-<img src="assets/weather_preview.jpg" alt="Weather App Preview" width="400">
+<img src="weather_preview.jpg" alt="Weather App Preview" width="400">
 
 ### GIF Example
 
